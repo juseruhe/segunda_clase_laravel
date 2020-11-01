@@ -30,7 +30,7 @@
             @csrf
             @method('DELETE')
         <a href> Modificar </a>
-        <button>  Eliminar</button>
+        <button onclick=" confirm('¿Desea Eliminar el Producto?');">  Eliminar</button>
         <a href> Detalles</a>
         </form>
     </td>
