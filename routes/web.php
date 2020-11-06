@@ -26,3 +26,9 @@ Route::get('company/create',[CompanyController::class,'create'])->name('company.
 Route::post('company',[CompanyController::class,'store'])->name('company.store');
 
 Route::delete('company/{id}',[CompanyController::class,'destroy'])->name('company.destroy');
+
+Route::get('company/{id}',[CompanyController::class,'show'])->name('company.show');
+
+Route::get('company/look/{id}',[CompanyController::class,'look'])->name('company.look');
+
+Route::put('company/{id}',[CompanyController::class,'put'])->name('company.put');

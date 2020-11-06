@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b1f341-1634-4615-bb48-53e6b37a8abb" name="Default Changelist" comment="" />
+    <list default="true" id="d2b1f341-1634-4615-bb48-53e6b37a8abb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/company/modificar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/company/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +16,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -124,6 +133,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jekyUUpoj8al95vSUSgeA3kBWr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -156,7 +166,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604172238271</updated>
       <workItem from="1604172239421" duration="7911000" />
-      <workItem from="1604240094292" duration="16812000" />
+      <workItem from="1604240094292" duration="17452000" />
+      <workItem from="1604506611262" duration="26000" />
+      <workItem from="1604696302543" duration="7412000" />
     </task>
     <servers />
   </component>
@@ -164,10 +176,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604180748763">
+    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604699938027">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604180748763" />
+    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604699938027" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604506641278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604506641278" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1604178010967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -2,7 +2,8 @@
 
 <head>
 
-    <title>  Compañia </title>
+
+    <title>  Compañias </title>
 
 </head>
 
@@ -29,9 +30,9 @@
         <form method="post" action="{{route('company.destroy',$company->id)}}">
             @csrf
             @method('DELETE')
-        <a href> Modificar </a>
+        <a href="{{route('company.look',$company->id)}}"> Modificar </a>
         <button onclick=" confirm('¿Desea Eliminar el Producto?');">  Eliminar</button>
-        <a href> Detalles</a>
+        <a href="{{route('company.show',$company->id)}}"> Detalles</a>
         </form>
     </td>
 

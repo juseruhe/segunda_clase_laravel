@@ -30,5 +30,37 @@ class CompanyController extends Controller
         return redirect()->route('company.index');
     }
 
+    public function  show($id){
+
+        $company = Company::find($id);
+
+        return view('company.detalles',compact('company'));
+
+    }
+
+    public function  look($id){
+
+        $company = Company::find($id);
+
+        return view('company.modificar',compact('company'));
+
+    }
+
+    public function put(Request $request,$id){
+
+   $company = Company::find($id);
+
+   $company->name= $request->input("name");
+   $company->NIT= $request->input("NIT");
+   $company->address= $request->input("address");
+   $company->created_at= $request->input("created_at");
+
+   $company->update();
+
+   return redirect()->route('company.index');
+
+    }
+
+
 
 }
