@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b1f341-1634-4615-bb48-53e6b37a8abb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/company/modificar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Company2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/company/detalles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/company/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/company/modificar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/company/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +141,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -148,6 +151,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CursoLaravel\segunda_clase\app\Http\Controllers\Company" />
       <recent name="C:\xampp\htdocs\CursoLaravel\segunda_clase\app\Models" />
     </key>
   </component>
@@ -168,7 +172,9 @@
       <workItem from="1604172239421" duration="7911000" />
       <workItem from="1604240094292" duration="17452000" />
       <workItem from="1604506611262" duration="26000" />
-      <workItem from="1604696302543" duration="7412000" />
+      <workItem from="1604696302543" duration="9147000" />
+      <workItem from="1604754812699" duration="582000" />
+      <workItem from="1604774516631" duration="7740000" />
     </task>
     <servers />
   </component>
@@ -180,10 +186,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604699938027" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604506641278">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604755409579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604506641278" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604755409579" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1604178010967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

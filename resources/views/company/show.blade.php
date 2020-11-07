@@ -10,7 +10,7 @@
 
 <table>
     <tr>
-
+        <td> ID </td>
         <td> Nombre </td>
         <td> NIT </td>
         <td>Dirección </td>
@@ -20,6 +20,7 @@
 
 
     <tr>
+        <td> {{$company->id}}</td>
         <td> {{$company->name}}</td>
         <td> {{$company->NIT}}</td>
         <td> {{$company->address}}</td>

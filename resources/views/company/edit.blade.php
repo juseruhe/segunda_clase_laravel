@@ -10,7 +10,7 @@
 
 
 
-<form method="post" action="{{route('company.put',$company->id)}}">
+<form method="post" action="{{route('company.update',$company->id)}}">
 
     @csrf
 
@@ -29,9 +29,6 @@
     <label> Dirección de la Compañía    </label>
     <input type="text" value="{{$company->address}}" name="address">
 
-
-    <label> Fecha de Modificación   </label>
-    <input type="datetime-local"  name="created_at" >
 
 
   <input type="submit" value="Actualizar Datos de la Empresa">
