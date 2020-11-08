@@ -53,13 +53,8 @@ public function  show($id){
 
 public  function update(Request  $request ,$id){
 
-        $company = Company::find($id);
+        $company = Company::find($id)->update($request->all());
 
-        $company->name =$request->input("name");
-        $company->NIT =$request->input("NIT");
-        $company->address = $request->input("address");
-
-        $company->update();
 
         return redirect()->route('company.index');
 

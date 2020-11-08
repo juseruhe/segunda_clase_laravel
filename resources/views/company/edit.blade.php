@@ -21,7 +21,7 @@
     <H1>  Modificar Datos de la Empresa</H1>
 
     <label> Nombre de la Compañía:    </label>
-    <input type="text" value="{{$company->name}}" name="name">
+    <input type="text" value="{{$company->name_company}}" name="name_company">
 
     <label> NIT de la Compañía    </label>
     <input type="text" value="{{$company->NIT}}" name="NIT">

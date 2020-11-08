@@ -15,7 +15,7 @@
 
         <label>  Nombre de la Compañia  </label>
 
-        <input type="text" name="name" placeholder="Escribe el Nombre de la Compañia:">
+        <input type="text" name="name_company" placeholder="Escribe el Nombre de la Compañia:">
 
         <label>  NIT de la Compañia  </label>
 

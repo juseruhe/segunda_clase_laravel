@@ -5,16 +5,20 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Company extends Model
+class Product_Types extends Model
 {
     use HasFactory;
 
+    protected  $table = 'product_types';
+
+
     protected $primaryKey = 'id';
-    protected  $table = 'companies';
-
-    protected  $fillable= [
-        'name_company','NIT','address'
-        ];
 
 
+
+    protected $fillable = [
+
+        'name_product_type'
+
+    ];
 }

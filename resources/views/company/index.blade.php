@@ -24,7 +24,7 @@
     @foreach($companies as $company)
 <tr>
         <td> {{$company->id}} </td>
-        <td> {{$company->name}} </td>
+        <td> {{$company->name_company}} </td>
         <td>{{$company->NIT}} </td>
         <td> {{$company->address}} </td>
         <td> {{$company->created_at}} </td>
