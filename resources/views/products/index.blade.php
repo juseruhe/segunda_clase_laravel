@@ -35,8 +35,8 @@
 
 
 
-                    <a href=""> Editar</a>
-                    <a href=""> Detalles </a>
+                    <a href="{{route('products.edit',$product->id)}}"> Editar</a>
+                    <a href="{{route('products.show',$product->id)}}"> Detalles </a>
                     <button> Eliminar </button>
 
 
