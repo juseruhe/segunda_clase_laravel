@@ -32,14 +32,15 @@
             <td> {{$product->name_company}} </td>
             <td>
 
-
-
+                 <form method="post" action="{{route('products.destroy',$product->id)}}">
+                 @csrf
+                     @method('DELETE')
 
                     <a href="{{route('products.edit',$product->id)}}"> Editar</a>
                     <a href="{{route('products.show',$product->id)}}"> Detalles </a>
                     <button> Eliminar </button>
 
-
+                 </form>
             </td>
 
         </tr>
