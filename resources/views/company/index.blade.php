@@ -10,9 +10,9 @@
 
 <body>
 
-<h1> Compañias</h1>
+<h1 class="text-primary text-center "> Compañias</h1>
 <a href="{{route('company.create')}}"> Crear Empresa</a>
-<table class="table table-dark">
+<table class="table table-dark ">
     <tr>
      <td scope="row"> ID </td>
         <td>Nombre</td>
@@ -35,10 +35,10 @@
 
             @csrf
             @method('DELETE')
-       <a href="{{route('company.edit',$company->id)}}"> Editar</a>
-        <a href="{{route('company.show',$company->id)}}"> Detalles </a>
+       <a href="{{route('company.edit',$company->id)}}" class="btn btn-warning"> Editar</a>
+        <a href="{{route('company.show',$company->id)}}" class="btn btn-secondary"> Detalles </a>
         <button onclick="
-        confirm('Desea Eliminar esta Compañia ');">
+        confirm('Desea Eliminar esta Compañia ');" class="btn btn-danger">
             Eliminar
 
         </button>

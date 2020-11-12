@@ -10,7 +10,7 @@
 <body>
 
 <table class="table table-dark">
-    <tr>
+    <tr class="text-primary">
         <td> ID </td>
         <td> Nombre </td>
         <td> NIT </td>
